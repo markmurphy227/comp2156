@@ -8,7 +8,7 @@ dist: focal
 deploy:
  provider: pages
  skip_cleanup: true
- github_token: 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
+ github_token: &github_token
  local_dir: build
  on:
   branch: main
