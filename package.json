@@ -1,6 +1,6 @@
 {
   "name": "comp2156",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "echo \"# comp2156\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/markmurphy227/comp2156.git\r git push -u origin main",
   "main": "index.js",
   "scripts": {
