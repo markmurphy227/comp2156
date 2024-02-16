@@ -1,10 +1,21 @@
 language: node_js
-
 node_js:
  - "stable"
 
+branches:
+ only:
+ - master
+
 dist: focal
 
+install:
+ - npm install
+ - npm install -g yarn
+
+script:
+ #- yarn lint
+ - yarn build
+ -mv build/index.htm build/404.html
 deploy:
  provider: pages
  skip_cleanup: true
